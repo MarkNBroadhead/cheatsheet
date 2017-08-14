@@ -38,6 +38,10 @@ Elevate vim to write over read-only file
 
 ```:w !sudo tee %```
 
+Find and replace
+
+```:%s/<replace this>/<with this/g```
+
 #### SSH
 Port forwarding
 
