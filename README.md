@@ -6,6 +6,7 @@ Starting off with a link of cheatsheets/guides I use regularly
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 * [screen](http://aperiodic.net/screen/quick_reference)
 * [Docker](https://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
+* [Git](http://www.ndpsoftware.com/git-cheatsheet.html#loc=local_repo;)
 
 # Useful commands
 
