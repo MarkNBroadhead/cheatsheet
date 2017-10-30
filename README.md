@@ -14,7 +14,7 @@ Starting off with a link of cheatsheets/guides I use regularly
 
 ### Systemd
 
-`systemctl _command_ _service-name_`
+`systemctl <command> <service-name>`
 
 commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`, `is-enabled`, `is-failed` 
 
