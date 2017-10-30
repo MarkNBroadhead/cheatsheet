@@ -12,6 +12,16 @@ Starting off with a link of cheatsheets/guides I use regularly
 
 ## Linux
 
+### Systemd
+
+`systemctl _command_ _service-name_`
+
+commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`, `is-enabled`, `is-failed` 
+
+`systemctl list-units --all` Lists all active units systemd knows about whether active or not
+
+[More commands on Digital Ocean guide](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
+
 ### Alpine
 
 #### Init
