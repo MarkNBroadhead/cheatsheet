@@ -22,6 +22,10 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 
 [More commands on Digital Ocean guide](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
+### Ubuntu
+#### Package Manager
+* `apt list --installed`
+
 ### Alpine
 
 #### Init
