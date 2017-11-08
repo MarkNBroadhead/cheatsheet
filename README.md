@@ -65,3 +65,5 @@ Port forwarding
 * ```jexec 1 /bin/tcsh``` Access jail 1
 ```ssh -L <local_port>:<service_host>:<service_port> -p <ssh_server_port> -l <ssh_server_username> -N <ssh_server_host>```
 
+#### Bash
+* `<command> !*` run new command with last arguments
