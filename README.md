@@ -36,7 +36,7 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 * ```reboot```
 * ```halt```
 * Available runlevels
-  * default, hotplugged, manual, sysinit, boot, single, freboot, shutdown
+  * default, hotplugged, manual, sysinit, boot, single, reboot, shutdown
 
 #### Package Manager
 * ```apk add <package>```
