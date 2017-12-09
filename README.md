@@ -29,12 +29,14 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 ### Alpine
 
 #### Init
-* ```rc-update add <service> <runlevel>```
+* ```rc-update add <service> <runlevel>``` (skipping runlevel will default to the default runlevel)
 * ```rc-update del <service> <runlevel>```
 * ```rc-service <service> <start stop restart>```
 * ```rc <runlevel>```
 * ```reboot```
 * ```halt```
+* Available runlevels
+  * default, hotplugged, manual, sysinit, boot, single, freboot, shutdown
 
 #### Package Manager
 * ```apk add <package>```
