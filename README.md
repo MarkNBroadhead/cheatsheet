@@ -25,6 +25,9 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 ### Ubuntu
 #### Package Manager
 * `apt list --installed`
+* Clear out all old kernels (USE WITH CAUTION) [found here](https://askubuntu.com/questions/89710/how-do-i-free-up-more-space-in-boot)
+
+    ```dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]' | xargs sudo apt-get -y purge```
 
 ### Alpine
 
