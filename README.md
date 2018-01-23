@@ -62,6 +62,13 @@ Find and replace
 
 ```:%s/<replace this>/<with this/g```
 
+Folding - `:help usr_28`
+
+All folding commands start with `z`.
+* ```zfap``` F-old creation - A Paragraph
+* ```zo``` Fold O-pen
+* ```zc``` Fold C-lose
+
 #### SSH
 Port forwarding
 
@@ -72,3 +79,10 @@ Port forwarding
 
 #### Bash
 * `<command> !*` run new command with last arguments
+
+## macOS
+
+Copy/Paste clipboard
+
+`pbcopy` `pbpaste`
+ex. `cat /etc/ssh/sshd_config | pbcopy`
