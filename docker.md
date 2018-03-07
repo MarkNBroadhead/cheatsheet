@@ -13,6 +13,7 @@ docker run --name=my-mysql-container --restart=always \
 ### Troubleshooting
 View logs for last 500 lines and follow
 ```docker logs -f --tail=500 <container name>```
+
 SSH into container 
 ```docker exec -it <container name> /bin/bash```
 
