@@ -13,6 +13,8 @@ docker run --name=my-mysql-container --restart=always \
 ### Troubleshooting
 View logs for last 500 lines and follow
 ```docker logs -f --tail=500 <container name>```
+SSH into container 
+```docker exec -it <container name> /bin/bash```
 
 ## Cleaning up after docker 
 Found this info in a great [blog post](https://getintodevops.com/blog/keeping-the-whale-happy-how-to-clean-up-after-docker)
