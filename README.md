@@ -80,9 +80,14 @@ Port forwarding
 #### Bash
 * `<command> !*` run new command with last arguments
 
+#### IntelliJ
+* CMD+Shift+A "Find Action"
+* Shift x2 "Search Anywhere"
+
 ## macOS
 
 Copy/Paste clipboard
 
 `pbcopy` `pbpaste`
 ex. `cat /etc/ssh/sshd_config | pbcopy`
+
