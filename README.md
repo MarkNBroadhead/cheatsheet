@@ -64,6 +64,13 @@ Find and replace
 
 Folding - `:help usr_28`
 
+Copy certain lines into a register (register is optional)
+
+```:13,19y a```
+
+Paste from register a under line 7 
+```:7pu a```
+
 All folding commands start with `z`.
 * ```zfap``` F-old creation - A Paragraph
 * ```zo``` Fold O-pen
