@@ -87,6 +87,7 @@ Port forwarding
 
 #### Bash
 * `<command> !*` run new command with last arguments
+* `DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"` get directory of current file.
 
 #### IntelliJ
 * CMD+Shift+A "Find Action"
