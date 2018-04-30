@@ -7,6 +7,7 @@ Starting off with a link of cheatsheets/guides I use regularly
 * [screen](http://aperiodic.net/screen/quick_reference)
 * [Docker](https://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
 * [Git](http://www.ndpsoftware.com/git-cheatsheet.html#loc=local_repo;)
+* [Slack](https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts)
 
 # Useful commands
 
