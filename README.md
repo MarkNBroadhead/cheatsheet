@@ -88,6 +88,10 @@ Port forwarding
 #### Bash
 * `<command> !*` run new command with last arguments
 * `DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"` get directory of current file.
+* `cat V{0..100}*.sql` Cat files using numerical sorting instead of alphabetical
+
+#### ZSH
+* `cat V*.sql(n)` Cats files using numerical sorting instead of alphabetical
 
 #### IntelliJ
 * CMD+Shift+A "Find Action"
