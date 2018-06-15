@@ -69,6 +69,9 @@ Copy certain lines into a register (register is optional)
 
 ```:13,19y a```
 
+Copy number of lines
+```5Y``` - copies 5 lines
+
 Paste from register a under line 7 
 ```:7pu a```
 
