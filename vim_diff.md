@@ -16,8 +16,8 @@
 * `git commit` complete merge
 
 ### Useful git configuration
-`git config merge.tool vimdiff`
-`git config merge.conflictstyle diff3`
-`git config mergetool.prompt false`
-`git config rere.enabled true`
-`git config --global mergetool.keepBackup false`
+* `git config merge.tool vimdiff`
+* `git config merge.conflictstyle diff3`
+* `git config mergetool.prompt false`
+* `git config rere.enabled true`
+* `git config --global mergetool.keepBackup false`
