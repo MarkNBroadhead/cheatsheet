@@ -3,7 +3,11 @@
 ## Shortcuts
 * sout System.out.println();
 
-
 ## Hotkeys
-* ctrl + j show javadoc
-* cmd + w close tab
+* `⌃j` show javadoc
+* `⌘w` close tab
+
+### Movement
+* `⌃⇥` switcher
+* `⇧⌘]` & `⇧⌘]` change tabs
+* `⌘]` & `⌘]` move through history
