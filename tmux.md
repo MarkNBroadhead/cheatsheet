@@ -1,5 +1,11 @@
 # Tmux
 
+## General
+* `ctrl+b` <le> leader key combo. This may be ctrl+a for some.
+* `<le>d`detach
+* `<le>?` list shortcuts
+* `<le>:` prompt
+
 ## Sessions
 * `tmux new -s <name>` new session
 * `tmux a -t <name>` attach to session
@@ -10,15 +16,18 @@
 * `<le>$` name
 
 ## Windows
-
+* `<le>c` create
+* `<le>w` list
+* `<le>n` next
+* `<le>p` previous
+* `<le>f` find
+* `<le>,` name
+* `<le>&` kill
 
 ## Panes
-```
-ctrl+b leader
-
-split panes
-% vertical
-" horizontal
+* `<le>%` split vertical
+* `<le>"` split horizontal
+* `<le>x` kill
 
 ```
 
