@@ -63,6 +63,8 @@ Find and replace
 
 ```:%s/<replace this>/<with this/g```
 
+Set paste mode `:set paste` & `:set nopaste`
+
 Folding - `:help usr_28`
 
 Copy certain lines into a register (register is optional)
