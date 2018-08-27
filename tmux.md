@@ -1,35 +1,34 @@
 # Tmux
+Note, most listed single-character commands are prepended with the leader key combo.
 
 ## General
-* `ctrl+b` <le> leader key combo. This may be ctrl+a for some.
-* `<le>d`detach
-* `<le>?` list shortcuts
-* `<le>:` prompt
+* `ctrl+b` leader key combo. This may be ctrl+a for some.
+* `d` detach
+* `?` list shortcuts
+* `:` prompt
 
 ## Sessions
 * `tmux new -s <name>` new session
 * `tmux a -t <name>` attach to session
 * `tmux ls` list sessions
 * `tmux kill-session -t <name>` kill session
-* `<le>:new` new session
-* `<le>s` list
-* `<le>$` name
+* `:new` new session
+* `s` list
+* `$` name
 
 ## Windows
-* `<le>c` create
-* `<le>w` list
-* `<le>n` next
-* `<le>p` previous
-* `<le>f` find
-* `<le>,` name
-* `<le>&` kill
+* `c` create
+* `w` list
+* `n` next
+* `p` previous
+* `f` find
+* `,` name
+* `&` kill
 
 ## Panes
-* `<le>%` split vertical
-* `<le>"` split horizontal
-* `<le>x` kill
-
-```
+* `%` split vertical
+* `"` split horizontal
+* `x` kill
 
 ## ITerm2 mode
 add `-CC` to the tmux command
