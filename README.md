@@ -63,6 +63,9 @@ Find and replace
 
 ```:%s/<replace this>/<with this/g```
 
+Delete matching lines
+```:g/profile/d```
+
 Set paste mode `:set paste` & `:set nopaste`
 
 Folding - `:help usr_28`
