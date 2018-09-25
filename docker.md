@@ -17,6 +17,9 @@ View logs for last 500 lines and follow
 SSH into container 
 ```docker exec -it <container name> /bin/bash```
 
+Bring up docker image that will remove its self upon exiting shell
+```docker run --rm -it ubuntu:16.04 bash -l```
+
 ## Cleaning up after docker 
 Found this info in a great [blog post](https://getintodevops.com/blog/keeping-the-whale-happy-how-to-clean-up-after-docker)
 ### Assess the situation
