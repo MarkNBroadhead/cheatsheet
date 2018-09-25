@@ -86,6 +86,8 @@ All folding commands start with `z`.
 * ```zc``` Fold C-lose
 
 #### SSH
+scp transfer local file `scp file.txt user@hostname:/remote/folder/`
+
 Port forwarding
 
 #### Jails
