@@ -55,35 +55,19 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 ### Utilities
 
 #### Vim
-Elevate vim to write over read-only file
-
-```:w !sudo tee %```
-
-Find and replace
-
-```:%s/<replace this>/<with this/g```
-
-Delete matching lines
-```:g/profile/d```
-
-Set paste mode `:set paste` & `:set nopaste`
-
-Folding - `:help usr_28`
-
-Copy certain lines into a register (register is optional)
-
-```:13,19y a```
-
-Copy number of lines
-```5Y``` - copies 5 lines
-
-Paste from register a under line 7 
-```:7pu a```
+* Elevate vim to write over read-only file `:w !sudo tee %`
+* Find and replace `:%s/<replace this>/<with this/g`
+* Delete matching lines `:g/profile/d`
+* Set paste mode `:set paste` & `:set nopaste`
+* Folding - `:help usr_28`
+* Copy certain lines into a register (register is optional) `:13,19y a`
+* Copy number of lines `5Y` - copies 5 lines
+* Paste from register a under line 7 `:7pu a`
 
 All folding commands start with `z`.
-* ```zfap``` F-old creation - A Paragraph
-* ```zo``` Fold O-pen
-* ```zc``` Fold C-lose
+* `zfap` F-old creation - A Paragraph
+* `zo` Fold O-pen
+* `zc` Fold C-lose
 
 #### SSH
 scp transfer local file `scp file.txt user@hostname:/remote/folder/`
