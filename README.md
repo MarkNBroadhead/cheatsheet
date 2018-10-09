@@ -58,6 +58,7 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 * Elevate vim to write over read-only file `:w !sudo tee %`
 * Find and replace `:%s/<replace this>/<with this/g`
 * Delete matching lines `:g/profile/d`
+* Delete non-matching lines `:v/profile/d` or `:%g!/profile/d`
 * Set paste mode `:set paste` & `:set nopaste`
 * Folding - `:help usr_28`
 * Copy certain lines into a register (register is optional) `:13,19y a`
