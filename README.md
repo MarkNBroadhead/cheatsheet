@@ -65,6 +65,14 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 * Copy number of lines `5Y` - copies 5 lines
 * Paste from register a under line 7 `:7pu a`
 
+##### Macros
+* `q<letter><commands>q` record macro
+* `<number>@<letter>` execute macro
+* `:%norm! @<letter>` execute on all lines
+* `:5,10norm! @<letter>` execute on lines 5-10
+* `:g/pattern/norm! @<letter>` execute on all lines matching pattern
+
+##### Folding
 All folding commands start with `z`.
 * `zfap` F-old creation - A Paragraph
 * `zo` Fold O-pen
