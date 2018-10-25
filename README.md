@@ -51,6 +51,8 @@ commands: `start`, `stop`, `restart` `enable`, `disable`, `status`, `is-active`,
 * ```apk info -a <package>``` Get info on package
 * ```apk info``` Lists all installed packages
 
+### Network
+* Show istening ports `netstat -ap tcp | grep -i "listen"` or `sudo lsof -PiTCP -sTCP:LISTEN`
 
 ### Utilities
 
