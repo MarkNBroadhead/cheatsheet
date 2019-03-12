@@ -94,6 +94,13 @@ Port forwarding
 * `<command> !*` run new command with last arguments
 * `DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"` get directory of current file.
 * `cat V{0..100}*.sql` Cat files using numerical sorting instead of alphabetical
+* Last # arguments:
+    * `!$` last 
+    * `!:*` or `!*` all
+    * `!:1` or `!^` 1st
+    * `!:1-3` 1-3
+    * `!:2-*` 2-last
+    * `$:0` The command, no args
 
 #### ZSH
 * `cat V*.sql(n)` Cats files using numerical sorting instead of alphabetical
