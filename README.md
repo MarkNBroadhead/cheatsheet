@@ -8,6 +8,7 @@ Starting off with a link of cheatsheets/guides I use regularly
 * [Docker](https://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
 * [Git](http://www.ndpsoftware.com/git-cheatsheet.html#loc=local_repo;)
 * [Slack](https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts)
+* [Kubectl](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#deleting-resources)
 
 # Useful commands
 
@@ -115,4 +116,27 @@ Copy/Paste clipboard
 
 `pbcopy` `pbpaste`
 ex. `cat /etc/ssh/sshd_config | pbcopy`
+
+## CLI Utils
+### git
+#### Staging
+* `git add -p` interactive staging
+* `git add -i` 
+
+#### Logs
+* `git log --follow  -p -- <file>` File history with diffs of each change, follows renames
+
+#### Rebasing
+rebase x commits onto another-branch
+* `git checkout -b staging-branch`
+* `git rebase -i <SHA or HEAD~<numcommits>> --onto another-branch` 
+
+Reorganize commits into new commits 
+* `git checkout -b staging-branch`
+* `git rebase -i <sha>` Commit SHA will be one before the ones you want to edit. Can also use HEAD~numcommits format.
+* In git-rebase-todo, change all but top to s or squash. You can also do this selectively with e or edit.
+* Save commit messages as is.
+* `git reset HEAD~` to unstage all changes from squashed commits.
+* Stage and create new commits.
+* `git rebase --continue`
 
