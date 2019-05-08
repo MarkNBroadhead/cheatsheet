@@ -102,6 +102,9 @@ Port forwarding
     * `!:1-3` 1-3
     * `!:2-*` 2-last
     * `$:0` The command, no args
+* Ensure parameter/variable is set `: ${2?Error message}`
+* Ensure Env variable is set `: ${MY_ENV_VAR?Error message}`
+* Set var with fallback `DIR=${MY_ENV_VAR:-$DEFAULT_DIR}`
 
 #### ZSH
 * `cat V*.sql(n)` Cats files using numerical sorting instead of alphabetical
