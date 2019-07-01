@@ -142,3 +142,6 @@ Reorganize commits into new commits
 * Stage and create new commits.
 * `git rebase --continue`
 
+### External CLI tools
+Get IP address
+* `curl ifconfig.co` returns public ip address
