@@ -1,6 +1,7 @@
 # Kubernetes Cheatsheet
 
 # Authentication & Switching Clusters
+* `gcloud container clusters get-credentials <cluster_name>` Add cluster to config
 * `kubectl config use-context` switch context
 * `kubectl config current-context` get name of current context
 * `kubectl config get-clusters` list all k8s clusters currently in config file
