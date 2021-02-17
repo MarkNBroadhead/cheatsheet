@@ -6,3 +6,5 @@
     * exit `\q + enter`
     * `\du` list users 
     * `\?` and `\help` help prompts
+    * Backup `pg_dump -a -n public URL`
+    * Restore `psql URL -f /path/to/file`
