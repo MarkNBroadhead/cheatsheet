@@ -9,7 +9,10 @@ docker rm my-mysql-container
 docker run --name=my-mysql-container --restart=always \
   -e MYSQL_ROOT_PASSWORD=mypwd -v /my/data/dir:/var/lib/mysql -d mysql
   ```
- 
+
+### Networking
+Connect to host `http://host.docker.internal`
+
 ### Troubleshooting
 View logs for last 500 lines and follow
 ```docker logs -f --tail=500 <container name>```
